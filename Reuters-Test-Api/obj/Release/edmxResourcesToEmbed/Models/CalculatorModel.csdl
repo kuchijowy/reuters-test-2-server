@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="calculatorModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="t_save">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="inputA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="inputB" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+    <Property Name="operator" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="data_result" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="calculatorEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="t_save" EntityType="Self.t_save" />
+  </EntityContainer>
+</Schema>

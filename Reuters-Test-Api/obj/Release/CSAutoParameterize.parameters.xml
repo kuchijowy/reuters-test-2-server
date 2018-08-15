@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="calculatorEntities-Web.config Connection String" description="calculatorEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.CalculatorModel.csdl|res://*/Models.CalculatorModel.ssdl|res://*/Models.CalculatorModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=calculator-server.database.windows.net;initial catalog=calculator;persist security info=True;user id=kuchijowy;password=Mzgjd445;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\jogio\\source\\repos\\Reuters-Test-Api\\Reuters-Test-Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='calculatorEntities']/@connectionString" />
+  </parameter>
+</parameters>

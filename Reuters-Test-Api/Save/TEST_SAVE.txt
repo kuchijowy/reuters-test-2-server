@@ -1,0 +1,1 @@
+{"InputA":"w1","InputB":"w2","SelectedOperator":"w3","Result":"w4"}

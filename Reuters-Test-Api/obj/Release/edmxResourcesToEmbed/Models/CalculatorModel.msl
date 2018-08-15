@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="calculatorModelStoreContainer" CdmEntityContainer="calculatorEntities">
+    <EntitySetMapping Name="t_save">
+      <EntityTypeMapping TypeName="calculatorModel.t_save">
+        <MappingFragment StoreEntitySet="t_save">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="inputA" ColumnName="inputA" />
+          <ScalarProperty Name="inputB" ColumnName="inputB" />
+          <ScalarProperty Name="operator" ColumnName="operator" />
+          <ScalarProperty Name="data_result" ColumnName="data_result" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
